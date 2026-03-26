@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd universal-media-converter/frontend && npm install && npm run build",
+  "outputDirectory": "universal-media-converter/frontend/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
